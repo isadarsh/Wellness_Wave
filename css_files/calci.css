@@ -13,6 +13,7 @@ body {
 }
 
 .out {
+  margin-top: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,6 +25,10 @@ body {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+}
+
+#bodyfatform {
+  width: 550px;
 }
 
 label {
@@ -49,7 +54,7 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 5% !important;
 }
 
 button:hover {
@@ -73,6 +78,7 @@ button:hover {
 .climate_box {
   display: flex;
   flex-direction: column;
+}
 
 .navlist:hover{
   background-color: #333;
